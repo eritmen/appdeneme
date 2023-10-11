@@ -1,5 +1,5 @@
 flask==2.2
-werkzeug=2.3.6
+werkzeug==2.3.6
 dash==1.0.2
 dash-daq==0.1.7
 gunicorn>=19.9.0
