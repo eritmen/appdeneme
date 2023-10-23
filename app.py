@@ -16,7 +16,7 @@ app = dash.Dash(
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
 app.title = "Manufacturing SPC Dashboard"
-app = app.server
+server = app.server
 app.config["suppress_callback_exceptions"] = True
 
 APP_PATH = str(pathlib.Path(__file__).parent.resolve())
